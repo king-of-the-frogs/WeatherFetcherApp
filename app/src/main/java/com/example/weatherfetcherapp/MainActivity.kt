@@ -1,9 +1,7 @@
 package com.example.weatherfetcher
 
 import android.annotation.SuppressLint
-import android.content.Intent
 import android.os.Bundle
-import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
@@ -15,6 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         val textViewHello = findViewById<TextView>(R.id.tvHello)
         textViewHello.text = "Hello from code!"
+
 
     }
 }
